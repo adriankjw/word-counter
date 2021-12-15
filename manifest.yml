@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: word-counter-adrian
+      function: main
+      title: Forge word counter demo
+      description: Word counter macro for Confluence Cloud
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/e18bb88e-b65c-4efd-a18a-ee170fd7c86e
