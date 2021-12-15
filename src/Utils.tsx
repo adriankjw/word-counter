@@ -5,7 +5,7 @@ const MORE_THAN = 1;
 const LESS_THAN = -1;
 
 export function countWords(inputText: string) {
-    let words = inputText.split(" ");
+    let words = inputText.split(/(\s+)/);
     let counts = {};
     words.forEach(word => {
         if (/\S/.test(word)) { // Ignore word if it's only whitespace
